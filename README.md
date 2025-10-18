@@ -3,7 +3,7 @@
 ## 01 - Encryption / Decryption using a Caesar Cipher
 
 ### What is a a Caesar Cipher?
-It's a type of substitution cipher \
+It's a type of substitution cipher. \
 Each letter is shifted a certain number of places down or up the alphabet.
 
 ### Is it safe and how do you crack it?
