@@ -34,7 +34,6 @@ def create_character(cname, strength, intelligence, charisma):
 rpg = create_character("ren", 4, 2, 1)
 print(rpg)
 
-
 # OUTPUT
     # ren
     # STR ●●●●○○○○○○
