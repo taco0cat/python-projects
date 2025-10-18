@@ -17,8 +17,8 @@ Easy to crack using **Brute-Force** or **Frequency Analysis**.
 ## 02 - Building an RPG Character
 
 ### Features
-Allows users to create and a rpg character with custom:\
-1. Name\
-2. Strength Stat\
-3. Intelligence Stat\
-4. Charisma Stat\
+Allows users to create and a rpg character with custom:
+1. Name
+2. Strength Stat
+3. Intelligence Stat
+4. Charisma Stat
