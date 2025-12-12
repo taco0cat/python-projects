@@ -1,4 +1,5 @@
-# Snake Case = this_is_snake_case_variable
+# List Comprehension by Making a Snake Case Converter
+    # Example: this_is_snake_case_variable = 10
 
 def convert_to_snake_case(pascal_or_camel_cased_string):
 
