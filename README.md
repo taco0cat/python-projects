@@ -21,12 +21,11 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 | :--- | :--- | :--- | :--- |
 | **01** | [**Caesar Cipher**](./01%20-%20Caesar_Cipher.py) | Encryption tool that shifts letters by a fixed amount. | Cryptography, Strings |
 | **02** | [**Pin Extractor**](./02%20-%20Pin%20Extractor.py) | Decodes a hidden PIN using a word-length algorithm. | Steganography, List Indexing |
-| **03** | [**Number Pattern Gen**](./03%20-%20Number%20Pattern%20Generator.py) | Generates mathematical number sequences. | Loops, Math Logic |
-| **04** | [**Vigenère Cipher**](./04%20-%20Vigenere%20Cipher.py) | Advanced encryption using a keyword-based shift. | Polyalphabetic Ciphers, Modulo |
-| **05** | [**Luhn Algorithm**](./05%20-%20Luhn%20Algorithm%20-%20Card%20Verification.py) | Validates credit card numbers using the Luhn formula. | Checksums, Data Verification |
-| **06** | [**Expense Tracker**](./06%20-%20Expense%20Tracker.py) | Tracks expenses using functional programming concepts. | Lambda Functions, Filtering |
-| **07** | [**Snake Case Converter**](./07%20-%20Snake_Case_Converter.py) | Utility to convert PascalCase/CamelCase to snake_case. | String Manipulation, Regex |
-| **08** | [**Square Root Calc**](./08%20-%20Square%20Root%20Calculator.py) | Calculates square roots without libraries. | Bisection Method, Algorithms |
+| **03** | [**Vigenère Cipher**](./03%20-%20Vigenere%20Cipher.py) | Advanced encryption using a keyword-based shift. | Polyalphabetic Ciphers, Modulo |
+| **04** | [**Luhn Algorithm**](./04%20-%20Luhn%20Algorithm%20-%20Card%20Verification.py) | Validates credit card numbers using the Luhn formula. | Checksums, Data Verification |
+| **05** | [**Expense Tracker**](./05%20-%20Expense%20Tracker.py) | Tracks expenses using functional programming concepts. | Lambda Functions, Filtering |
+| **06** | [**Snake Case Converter**](./06%20-%20Snake_Case_Converter.py) | Utility to convert PascalCase/CamelCase to snake_case. | String Manipulation, Regex |
+| **07** | [**Square Root Calc**](./07%20-%20Square%20Root%20Calculator.py) | Calculates square roots without libraries. | Bisection Method, Algorithms |
 | **Cert**| [**Arithmetic Formatter**](./Certification%20Project%201.py) | **(Certification)** Formats arithmetic problems vertically. | String Formatting, Logic |
 
 ---
@@ -46,7 +45,7 @@ Ensure you have **Python 3.x** installed.
 3.  **Run a script:**
     *Note: Use quotes if the filename has spaces.*
     ```bash
-    python "05 - Luhn Algorithm - Card Verification.py"
+    python "04 - Luhn Algorithm - Card Verification.py"
     ```
 
 ---
