@@ -26,7 +26,8 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 | **05** | [**Expense Tracker**](./05%20-%20Expense%20Tracker.py) | Tracks expenses using functional programming concepts. | Lambda Functions, Filtering |
 | **06** | [**Snake Case Converter**](./06%20-%20Snake_Case_Converter.py) | Utility to convert PascalCase/CamelCase to snake_case. | String Manipulation, Regex |
 | **07** | [**Square Root Calc**](./07%20-%20Square%20Root%20Calculator.py) | Calculates square roots without libraries. | Bisection Method, Algorithms |
-| **Cert**| [**Arithmetic Formatter**](./Certification%20Project%201.py) | **(Certification)** Formats arithmetic problems vertically. | String Formatting, Logic |
+| **08** | [**Password Generator**](./08%20-%20Password%20Generator%20using%20RegEx.py) | Generates strong passwords using Regex constraints. | Regex, Secrets Module |
+| **Cert**| [**Arithmetic Formatter**](./Certification%20Project%201.py) | **(First Certification Project)** Formats arithmetic problems vertically. | String Formatting, Logic |
 
 ---
 
@@ -45,7 +46,7 @@ Ensure you have **Python 3.x** installed.
 3.  **Run a script:**
     *Note: Use quotes if the filename has spaces.*
     ```bash
-    python "04 - Luhn Algorithm - Card Verification.py"
+    python "08 - Password Generator using RegEx.py"
     ```
 
 ---
@@ -54,6 +55,9 @@ Ensure you have **Python 3.x** installed.
 
 ### 🔐 Cryptography (Caesar & Vigenère)
 Starting with the **Caesar Cipher** (simple substitution), I progressed to the **Vigenère Cipher**, which uses a keyword to create a polyalphabetic shift. This makes the encryption much stronger against frequency analysis attacks.
+
+### 🛡️ Regular Expressions
+The **Password Generator** uses the `secrets` module for cryptographically strong random selection, combined with **Regular Expressions (Regex)** to strictly enforce user-defined constraints (e.g., "must contain at least 2 special characters").
 
 ### 💳 Luhn Algorithm
 Implemented the industry-standard **Luhn Algorithm** (Mod 10), used globally to validate identification numbers like credit cards and IMEI numbers. It demonstrates how real-world systems prevent accidental data entry errors.
