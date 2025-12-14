@@ -20,16 +20,13 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 | ID | Project Name | Description | Key Concepts |
 | :--- | :--- | :--- | :--- |
 | **01** | [**Caesar Cipher**](./01%20-%20Caesar_Cipher.py) | Encryption tool that shifts letters by a fixed amount. | Cryptography, Strings |
-| **02** | [**RPG Character Builder**](./02%20-%20RPG%20Character.py) | Generates a character with stats (Strength, Intel, etc). | Classes, OOP |
-| **03** | [**Pin Extractor**](./03%20-%20Pin%20Extractor.py) | Decodes a hidden PIN using a word-length algorithm. | Steganography, List Indexing |
-| **04** | [**Number Pattern Gen**](./04%20-%20Number%20Pattern%20Generator.py) | Generates mathematical number sequences. | Loops, Math Logic |
-| **05** | [**Medical Data Validator**](./05%20-%20Medical%20Data%20Validator.py) | Cleans and validates medical record formats. | Data Validation, Error Handling |
-| **06** | [**ISBN Validator (Debug)**](./06%20-%20Debug%20-%20ISBN%20Validator.py) | A debugging challenge to fix an ISBN checker. | Debugging, Checksums |
-| **07** | [**Vigenère Cipher**](./07%20-%20Vigenere%20Cipher.py) | Advanced encryption using a keyword-based shift. | Polyalphabetic Ciphers, Modulo |
-| **08** | [**Luhn Algorithm**](./08%20-%20Luhn%20Algorithm%20-%20Card%20Verification.py) | Validates credit card numbers using the Luhn formula. | Checksums, Data Verification |
-| **09** | [**Expense Tracker**](./09%20-%20Expense%20Tracker.py) | Tracks expenses using functional programming concepts. | Lambda Functions, Filtering |
-| **10** | [**Snake Case Converter**](./10%20-%20Snake_Case_Converter.py) | Utility to convert PascalCase/CamelCase to snake_case. | String Manipulation, Regex |
-| **11** | [**Square Root Calc**](./11%20-%20Square%20Root%20Calculator.py) | Calculates square roots without libraries. | Bisection Method, Algorithms |
+| **02** | [**Pin Extractor**](./02%20-%20Pin%20Extractor.py) | Decodes a hidden PIN using a word-length algorithm. | Steganography, List Indexing |
+| **03** | [**Number Pattern Gen**](./03%20-%20Number%20Pattern%20Generator.py) | Generates mathematical number sequences. | Loops, Math Logic |
+| **04** | [**Vigenère Cipher**](./04%20-%20Vigenere%20Cipher.py) | Advanced encryption using a keyword-based shift. | Polyalphabetic Ciphers, Modulo |
+| **05** | [**Luhn Algorithm**](./05%20-%20Luhn%20Algorithm%20-%20Card%20Verification.py) | Validates credit card numbers using the Luhn formula. | Checksums, Data Verification |
+| **06** | [**Expense Tracker**](./06%20-%20Expense%20Tracker.py) | Tracks expenses using functional programming concepts. | Lambda Functions, Filtering |
+| **07** | [**Snake Case Converter**](./07%20-%20Snake_Case_Converter.py) | Utility to convert PascalCase/CamelCase to snake_case. | String Manipulation, Regex |
+| **08** | [**Square Root Calc**](./08%20-%20Square%20Root%20Calculator.py) | Calculates square roots without libraries. | Bisection Method, Algorithms |
 | **Cert**| [**Arithmetic Formatter**](./Certification%20Project%201.py) | **(Certification)** Formats arithmetic problems vertically. | String Formatting, Logic |
 
 ---
@@ -49,7 +46,7 @@ Ensure you have **Python 3.x** installed.
 3.  **Run a script:**
     *Note: Use quotes if the filename has spaces.*
     ```bash
-    python "08 - Luhn Algorithm - Card Verification.py"
+    python "05 - Luhn Algorithm - Card Verification.py"
     ```
 
 ---
@@ -73,7 +70,7 @@ The **Expense Tracker** utilizes Python's functional programming features, speci
 ## 🛡️ License
 
 This project is open source.
-**Curriculum Source:** [FreeCodeCamp Python Certification (V9)](https://www.freecodecamp.org/learn/python-v9)
+**Curriculum Source:** [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 ---
 *Created by [taco0cat](https://github.com/taco0cat)*
