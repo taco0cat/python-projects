@@ -8,10 +8,10 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 
 ## 📋 Table of Contents
 
-* [📂 Project List](#-project-list)
-* [⚙️ How to Run](#-how-to-run)
-* [🧠 Key Concepts](#-key-concepts)
-* [🛡️ License](#-license)
+* [📂 Project List](#project-list)
+* [⚙️ How to Run](#how-to-run)
+* [🧠 Key Concepts](#key-concepts)
+* [🛡️ License](#license)
 
 ---
 
