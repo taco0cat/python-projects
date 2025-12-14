@@ -1,3 +1,7 @@
+import string
+
+alphabet = string.ascii_letters + string.digits + string.punctuation + ' '
+
 def caesar(text, shift, encrypt=True):
 
     # Validating only integers for shift variable
@@ -5,10 +9,10 @@ def caesar(text, shift, encrypt=True):
         return 'Shift must be an integer value.'
 
     # Validating shift between 1 and 25
-    if shift < 1 or shift > 25:
-        return 'Shift must be an integer between 1 and 25.'
-
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    if shift < 1:
+        return 'Shift must be greater than 0.'
+    if shift > len(alphabet):
+        shift = shift % len(alphabet)
 
     # If encrypt is false, shift will be negative
     if not encrypt:
@@ -31,12 +35,12 @@ def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
 
 # Example
-# encrypted_text = encrypt('freeCodeCamp', 3)
-# print(encrypted_text)
+encrypt_text = encrypt('freeCodeCamp', 3)
+print(encrypt_text)
 
-encrypted_text = "Pbhentr vf sbhaq va hayvxryl cynprf."
-decrypted_text = decrypt(encrypted_text, 13)
+encrypt_text2 = encrypt("Courage is found in unlikely places.", 13)
+print(encrypt_text2)
+
+encrypted_text3 = "PBHEntrMvFMsBHAqMvAMHAyvxryLMCynprF_"
+decrypted_text = decrypt(encrypt_text2, 13)
 print(decrypted_text)
-
-# OUTPUT
-    # Courage is found in unlikely places.
