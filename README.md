@@ -15,7 +15,7 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 
 ---
 
-## 📂 Project List
+## <a name="project-list"></a>📂 Project List
 
 | ID | Project Name | Description | Key Concepts |
 | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ A collection of Python scripts and CLI tools developed as part of the **FreeCode
 
 ---
 
-## ⚙️ How to Run
+## <a name="how-to-run"></a>⚙️ How to Run
 
 Ensure you have **Python 3.x** installed.
 
@@ -50,7 +50,7 @@ Ensure you have **Python 3.x** installed.
 
 ---
 
-## 🧠 Key Concepts
+## <a name="key-concepts"></a>🧠 Key Concepts
 
 ### 🔐 Cryptography (Caesar & Vigenère)
 Starting with the **Caesar Cipher** (simple substitution), I progressed to the **Vigenère Cipher**, which uses a keyword to create a polyalphabetic shift. This makes the encryption much stronger against frequency analysis attacks.
@@ -66,7 +66,7 @@ The **Expense Tracker** utilizes Python's functional programming features, speci
 
 ---
 
-## 🛡️ License
+## <a name="license"></a>🛡️ License
 
 This project is open source.
 **Curriculum Source:** [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
